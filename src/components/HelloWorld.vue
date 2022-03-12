@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import {onMounted} from 'vue'
 export default {
   name: "HelloWorld",
   props: {
@@ -24,6 +25,8 @@ export default {
       this.$emit("close");
     },
   },
+
+  
 };
 </script>
 
